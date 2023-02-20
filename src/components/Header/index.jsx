@@ -7,6 +7,8 @@ import { Container , Profile , Logout} from "./style";
 import { useAuth } from '../../hooks/auth';
 import { api } from '../../services/api';
 
+import avatarPlaceHolder from '../../assets/avatar_placeholder.svg';
+
 
 export function Header(){
     const { signOut, user } = useAuth();
