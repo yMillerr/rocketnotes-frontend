@@ -32,7 +32,7 @@ export function Header(){
 
                 <div>
                     <span>Bem-Vindo</span>
-                    <strong>Vitor Eduardo</strong>
+                    <strong>{user.name}</strong>
                 </div>
             </Profile>
 
